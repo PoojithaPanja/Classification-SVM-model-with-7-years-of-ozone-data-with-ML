@@ -61,9 +61,9 @@ print("Auc Roc Curve Score: ",auc_test_roc_curve)
 #Auc Roc Curve Score:  0.5
 
 
-print("Precision Score: ", precision_score(y_test, y_test_pred, average="macro").mean()*100)
-print("Recall Score: ", recall_score(y_test, y_test_pred, average="macro").mean()*100)
-print("F1 Score: ",f1_score(y_test, y_test_pred, average="macro").mean()*100)
+print("Precision Score: ", precision_score(y_test, y_test_pred, average="macro")*100)
+print("Recall Score: ", recall_score(y_test, y_test_pred, average="macro")*100)
+print("F1 Score: ",f1_score(y_test, y_test_pred, average="macro")*100)
 
 #Precision Score:  47.80821917808219
 #Recall Score:  50.0
